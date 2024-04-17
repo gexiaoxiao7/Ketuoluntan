@@ -67,11 +67,9 @@ const Login: React.FC = () => {
       <div className={styles.content}>
         <LoginForm
           logo={<img alt="logo" src={SYSTEM_LOGO} />}
-          title="SUIBE MMA"
+          title="可拓知识论坛系统"
           subTitle={
-            <a href="https://github.com/suibemath" target="_blank" rel="noreferrer">
-              上海对外经贸大学最好的美赛国赛学习圈子
-            </a>
+            "一个分享可拓知识，以及进行可拓基元提取的平台"
           }
           initialValues={{
             autoLogin: false,

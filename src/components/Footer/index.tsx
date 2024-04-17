@@ -2,7 +2,7 @@ import { GithubOutlined } from '@ant-design/icons';
 import { DefaultFooter } from '@ant-design/pro-components';
 
 const Footer: React.FC = () => {
-  const defaultMessage = '上外贸数学建模协会出品';
+  const defaultMessage = '可拓知识论坛系统';
   const currentYear = new Date().getFullYear();
   return (
     <DefaultFooter

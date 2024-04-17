@@ -15,7 +15,7 @@ const loginPath = '/user/login';
 const WHITE_LIST = ['/user/register', loginPath, '/home','/qd/:id'];
 
 /** 获取用户信息比较慢的时候会展示一个 loading */
-export const initialStateConfig = {
+  export const initialStateConfig = {
   loading: <PageLoading />,
 };
 

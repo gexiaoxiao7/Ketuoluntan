@@ -19,14 +19,30 @@ const request = extend({
 /**
  * 所有响应拦截器
  */
-request.interceptors.response.use(async (response, options): Promise<any> => {
-
-  const res = await response.clone().json();
-  if (res === null){
-    message.error("操作失败")
-    return response;
-  }
-  return response;
-});
+// request.interceptors.response.use(async (response, options): Promise<any> => {
+//
+//   const res = await response.clone().json();
+//   if (res === null){
+//     message.error("操作失败")
+//     return response;
+//   }
+//   return response;
+// });
 
 export default request;
+// request.interceptors.response.use(async (response, options): Promise<any> => {
+//
+//   const json = await response.clone().json();
+//   if (response && response.status === 200) {
+//     if (json) {
+//       // 处理响应内容
+//     } else {
+//       message.error("操作失败");
+//     }
+//   } else {
+//     // 处理错误响应
+//   }
+//   return response;
+// });
+
+// export default request;

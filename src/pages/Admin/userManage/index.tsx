@@ -127,14 +127,22 @@ const QuestionDetail: React.FC = () => {
       title: '积分',
       search: false,
       dataIndex: 'score',
-      formItemProps: {
-        rules: [
-          {
-            required: true,
-            message: '此项为必填项',
-          },
-        ],
-      },
+      // formItemProps: {
+      //   rules: [
+      //     {
+      //       required: true,
+      //       message: '此项为必填项',
+      //     },
+      //   ],
+      // },
+      // renderFormItem: (_, { defaultRender }) => {
+      //   return defaultRender(_);
+      // },
+      // render: (_, record) => (
+      //   <Space>
+      //     <Tag key={ record.score } color="#f50">{record.score}</Tag>
+      //   </Space>
+      // ),
     },
     {
       title: '操作',

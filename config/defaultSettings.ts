@@ -12,7 +12,7 @@ const Settings: LayoutSettings & {
   fixedHeader: false,
   fixSiderbar: true,
   colorWeak: false,
-  title: '数学建模协会',
+  title: '可拓知识论坛系统',
   pwa: false,
   logo: 'https://logonoid.com/images/matlab-logo.png',
   iconfontUrl: '',

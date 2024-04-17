@@ -25,10 +25,19 @@ export default [
     component: './Rules',
   },
   {
-    name: '报名',
+    path: '/lab',
+    name: '可拓实验室',
     icon: 'smile',
-    path: '/sign',
-    component: './Sign',
+    routes: [
+      {
+        path: '/lab/participles',
+        name: '基元提取',
+        component: './Lab/Participles',
+      },
+      {
+        component: './404',
+      },
+    ],
   },
   {
     name: '题目',
@@ -103,12 +112,6 @@ export default [
         name: '重置积分',
         icon: 'smile',
         component: './Admin/ResetScore',
-      },
-      {
-        path: '/admin/sign',
-        name: '审核新成员',
-        icon: 'smile',
-        component: './Admin/Sign',
       },
       {
         component: './404',
